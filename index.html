@@ -1,0 +1,231 @@
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>parallax website</title>
+    </head>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .parallaxone{
+            width: 100%;
+            background-image: url('images1.jpg');
+            height: 600px;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+        .parallaxone h2{
+            position: relative;
+            text-align: center;
+            left: 60vw;
+            top: 37%;
+            color: white;
+            width: 20%;
+            height: fit-content;
+            
+            padding: 1vw;
+            font-size: 32px;
+        }
+        .innerContainer{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-size: 24px;
+          
+        }
+        .parallaxtwo{
+            width: 100%;
+            background-image: url('images2.jpg');
+            height: 600px;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+        .parallaxtwo h2{
+            position: relative;
+            text-align: center;
+            left: 10vw;
+            top: 50%;
+            color: white;
+            width: 20%;
+            height: fit-content;
+            background-color: #14181B;
+            padding: 1vw;
+            border-radius: 2vw;
+        }
+        .innerContainer{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            color: white;
+          
+        }
+        .parallaxthree{
+            width: 100%;
+            background-image: url('images3.jpg');
+            height: 600px;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+        
+        #bottomContainer{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            background-color: white;
+            color:black;
+            font-size: 24px;
+          
+        }
+        @media screen and (max-width:720px) {
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .parallaxone{
+                width: 100%;
+                background-image: url('image1phone.jpg');
+                height: 600px;
+                
+                background-attachment: fixed;
+                background-size: 100% 100%;
+    
+            }
+            .parallaxone h2{
+                position: relative;
+                text-align: center;
+                left: 10vw;
+                top: 57%;
+                color: white;
+                width: 40%;
+                height: fit-content;
+                
+                padding: 0.2vw;
+                font-size: 24px;
+            }
+            .innerContainer{
+                position: relative;
+                width: 100%;
+                text-align: center;
+                background-color: black;
+                color: white;
+                font-size: 16px;
+              
+            }
+            .parallaxtwo{
+                width: 100%;
+                background-image: url('image2phone.jpg');
+                height: 600px;
+                
+                background-attachment: fixed;
+                background-size: 100% 100%;
+    
+            }
+            .parallaxtwo h2{
+                position: relative;
+                text-align: center;
+                left: 10vw;
+                top: 57%;
+                color: white;
+                width: 40%;
+                height: fit-content;
+                
+                padding: 0.2vw;
+                font-size: 24px;
+            }
+            .innerContainer{
+                position: relative;
+                width: 100%;
+                text-align: center;
+                background-color: black;
+                color: white;
+                font-size: 16px;
+              
+            }
+
+            .parallaxthree{
+                width: 100%;
+                background-image: url('image3phone.jpg');
+                height: 600px;
+                
+                background-attachment: fixed;
+                background-size: 100% 100%;
+    
+            }
+            .parallaxthree h2{
+                position: relative;
+                text-align: center;
+                left: 10vw;
+                top: 40%;
+                color: white;
+                width: 40%;
+                height: fit-content;
+                
+                padding: 0.2vw;
+                font-size: 24px;
+            }
+            #bottomContainer{
+                position: relative;
+                width: 100%;
+                text-align: center;
+                background-color:#2672C4;
+                color: black;
+                font-size: 16px;
+              
+            }
+
+
+        }
+            
+        
+    </style>
+
+    <body>
+        <div class="parallaxone">
+            <h2>
+                Sonali Singh
+            </h2>
+        </div>
+        <div class="innerContainer">
+            <p>
+                Myself Sonali Singh and i am from Bihar. now talking about me Educational background, 
+                i scored 82.5% in my 10th and 70.08% in my Diploma that i had complete from oriental university Indore in 2020 and
+                Currently I passout B.tech with computer science branch having specializaion in information and cyber security.
+            </p>
+        </div>
+
+        <div class="parallaxtwo">
+            <h2>
+                Programming
+            </h2>
+        </div>
+        <div class="innerContainer">
+            <p>
+                I have been into programming for almost last5 years since my Diploma and i have worked with language involving 
+                c, html, css, javascript and many more out of which i am the most familiar and comfortable in working with 
+                javascript and css and for the database part i have done mysql database and managed firebase database in my college projects.
+            </p>
+        </div>
+
+        <div class="parallaxthree">
+            <h2>
+                Web Designer
+            </h2>
+            
+        </div>
+        <div id="bottomContainer">
+            <p>
+                Web Designers create and build websites and web pages by combining any number of visual design elements including
+                text, photos, graphics, animations and videos.
+                A Web Designer could create a brand new website or simply make updates to the design and layout of existing pages.
+            </p>
+        </div>
+
+    </body>
+</html>
